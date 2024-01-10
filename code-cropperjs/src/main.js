@@ -1,6 +1,5 @@
 import Cropper from 'cropperjs'
 
-console.log(Cropper)
+console.dir(Cropper)
 const imgDom = document.querySelector('img')
-console.log(imgDom)
-new Cropper()
+new Cropper(imgDom)
